@@ -1,0 +1,68 @@
+body {
+  background-color: #808080;
+
+  /* background-image: linear-gradient(green, yellow, red); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.between {
+  position: fixed;
+  right: 20px;
+  top: 0;
+}
+h1 {
+  text-align: center;
+}
+
+.btn {
+  width: 10%;
+  min-width: 60px;
+  height: 8vh;
+  min-height: 22px;
+  background-image: radial-gradient(rgb(175, 59, 185), yellow);
+}
+
+.again {
+  position: fixed;
+  top: 5%;
+  left: 50px;
+}
+
+.check {
+  width: 75%;
+  margin-top: 80px;
+  margin-left: 5%;
+}
+
+.number {
+  position: fixed;
+  top: 45%;
+  left: 45%;
+  width: 15%;
+  height: 15vh;
+  text-align: center;
+  font-size: 78px;
+  background-color: antiquewhite;
+}
+.left {
+  position: fixed;
+  left: 80px;
+  bottom: 180px;
+}
+
+.guess {
+  font-size: 40px;
+  height: 60px;
+  width: 42%;
+  display: block;
+  background-color: bisque;
+}
+
+.right {
+  position: fixed;
+  right: 180px;
+  bottom: 180px;
+}
